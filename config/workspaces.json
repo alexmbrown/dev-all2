@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Entegral",
+    "projects": [
+      {
+        "name": "IM Apps",
+        "path": "/Users/abrown/dev/entegral/incident-management/im-apps",
+        "type": "nx",
+        "packageManager": "npm",
+        "children": [
+          {
+            "name": "Claimant UI",
+            "path": "apps/claimant"
+          },
+          {
+            "name": "Config UI",
+            "path": "apps/claimant"
+          },
+          {
+            "name": "Event UI",
+            "path": "apps/claimant"
+          },
+          {
+            "name": "Insurer UI",
+            "path": "apps/claimant"
+          }
+        ]
+      },
+      {
+        "name": "Repair Facilities API",
+        "path": "/Users/abrown/dev/entegral/incident-management/kotlin/im-repair-facilities-api",
+        "type": "gradle"
+      },
+      {
+        "name": "Triage API",
+        "path": "/Users/abrown/dev/entegral/incident-management/kotlin/im-triage-api",
+        "type": "gradle"
+      }
+    ],
+    "integrations": {
+      "jira": {
+        "id": "123",
+        "url": "https://entegral.atlassian.net/",
+        "projectKeys": [
+          "ICVS",
+          "SPACE",
+          "TEC"
+        ]
+      },
+      "gitlab": {
+        "id": "456",
+        "url": "https://gitlab.mgmt.arms-dev.net/"
+      }
+    }
+  },
+  {
+    "personal": "Personal",
+    "projects": [
+      {
+        "name": "DevAll",
+        "path": "/Users/abrown/dev/personal/dev-all2",
+        "type": "node",
+        "packageManager": "yarn",
+        "children": [
+          {
+            "name": "Desktop",
+            "path": "desktop"
+          },
+          {
+            "name": "Firebase",
+            "path": "firebase"
+          },
+          {
+            "name": "Mobile",
+            "path": "mobile"
+          },
+          {
+            "name": "IDEA Plugin",
+            "path": "extensions/idea"
+          },
+          {
+            "name": "VS Code Extension",
+            "path": "extensions/vscode"
+          },
+          {
+            "name": "Web",
+            "path": "web"
+          }
+      }
+    ]
+  }
+]

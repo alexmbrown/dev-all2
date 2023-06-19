@@ -1,0 +1,15 @@
+{
+  "name": "devall",
+  "version": "0.0.0",
+  "description": "All the dev tools you need in one place",
+  "main": "index.js",
+  "repository": "https://github.com/alexmbrown/dev-all.git",
+  "author": "Alex Brown <abrown522@gmail.com>",
+  "private": true,
+  "packageManager": "yarn@3.2.2",
+  "workspaces": [
+    "desktop",
+    "mobile",
+    "web"
+  ]
+}

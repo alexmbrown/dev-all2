@@ -1,0 +1,3 @@
+<template>
+  Clipboard Root
+</template>

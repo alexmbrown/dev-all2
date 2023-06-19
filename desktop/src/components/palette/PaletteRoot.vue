@@ -1,0 +1,3 @@
+<template>
+  Palette Root
+</template>
